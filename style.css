@@ -2,11 +2,17 @@
     font-family: sen;
 }
 
+body a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-image: linear-gradient(rgb(241, 198, 105),rgb(218, 103, 103));
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .screen-box {
